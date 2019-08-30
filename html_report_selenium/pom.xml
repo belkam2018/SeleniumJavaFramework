@@ -91,14 +91,14 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M3</version>
         <configuration>
-        <includes>
-            <include>Test1.java</include>
-          </includes>
-         <!--  <suiteXmlFiles>
+         <includes>
+            <include>RecordTest.java</include>
+          </includes>  
+        <!--   <suiteXmlFiles>
             <suiteXmlFile>testng6.xml</suiteXmlFile>
-            <suiteXmlFile>${testngFile}</suiteXmlFile>
-            mvn clean test -DtestngFile=testng6.xml  run it in command line
-          </suiteXmlFiles> -->
+           <suiteXmlFile>${testngFile}</suiteXmlFile>
+             mvn clean test -DtestngFile=testng6.xml  run it in command line
+          </suiteXmlFiles>   -->
           
         </configuration>
       </plugin>

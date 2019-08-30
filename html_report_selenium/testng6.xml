@@ -6,7 +6,8 @@
   <!--  <parameter name="MyName" value="Automation"></parameter>-->
   
   <classes>
-  <class name="demo.TestNGParametersDemo"></class>
+<!--   <class name="demo.TestNGParametersDemo"></class>
+ -->  <class name="demo.RecordTest"></class>
   </classes>
   
   </test> 
